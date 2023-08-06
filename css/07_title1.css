@@ -2,115 +2,120 @@
 @font-face {
 	font-family: DIN2014;
 	src: url(../font/En_Body_Din2014/DIN2014-Bold.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
 	font-family: Pretendard;
 	src: url(../font/Kr_Pretendard/Pretendard-SemiBold.ttf) format("truetype");
-}
-@font-face {
+ }
+ @font-face {
 	font-family: demibold;
 	src: url(../font/En_Body_Din2014/DIN2014-DemiBold.ttf) format("truetype");
-}
-.section-style {
+ }
+ .section-style {
 	height:   100%;
-}
-
-.sect-contents {
+ }
+ 
+ .sect-contents {
 	flex-grow: 1;
-}
-
-.card-list {
+ }
+ 
+ .card-list {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 380px;
-}
-
-.card-item2{
- background-color: #FFF;
- width: 1440px;
+ }
+ 
+ .card-item2{
+  background-color: #202020;
+  width: 1440px;
 	height: 900px;
 	overflow: hidden;
 	position: relative;
-}
-
-.card-list li {
+ }
+ 
+ .card-list li {
 	margin-left: 0;
 	width: 348px;
 	height: auto;
 	
-}
-
-.card-item {
+ }
+ 
+ .card-item {
 	height: 495.7px;
-}
-
-
-.card-item .thumbnail img {
+ }
+ 
+ 
+ .thumbnail{
+	text-align: center;
+	margin-left: auto;
+ }
+ 
+ .card-item .thumbnail img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	
-}
-
-.card-item .title1,
-.card-item .content1 {
+ 
+ }
+ 
+ .card-item .title1,
+ .card-item .content1 {
 	display: inline-block;
-
-}
-
-.card-item .title1 {
+ 
+ }
+ 
+ .card-item .title1 {
 	width: 189px;
 	height: 80px;
 	color: #FFF;
-font-family: DIN2014;
-font-size: 70px;
-font-style: normal;
-font-weight: 700;
-line-height: 80px; /* 114.286% */
-opacity: 0.8;
-margin-bottom: 14px;
-}
-
-.card-item .content1 {
+ font-family: DIN2014;
+ font-size: 70px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 80px; /* 114.286% */
+ opacity: 0.8;
+ margin-bottom: 14px;
+ }
+ 
+ .card-item .content1 {
 	width: 348px;
 	height: 80px;
 	color: #FFF;
-font-family: demibold;
-font-size: 22px;
-font-style: normal;
-font-weight: 700;
-line-height: 28px; /* 127.273% */
-opacity: 0.4;
-margin-bottom: 34px;
-height: 112px;
-}
-
-.card-item .title2,
-.card-item .content2 {
+ font-family: demibold;
+ font-size: 22px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 28px; /* 127.273% */
+ opacity: 0.4;
+ margin-bottom: 34px;
+ height: 112px;
+ }
+ 
+ .card-item .title2,
+ .card-item .content2 {
 	display: inline-block;
-}
-
-.card-item .title2 {
+ }
+ 
+ .card-item .title2 {
 	width: 712px;
 	height: 120px;
 	color: #FFF;
-font-family: Pretendard;
-font-size: 26px;
-font-style: normal;
-font-weight: 600;
-line-height: 40px; /* 153.846% */
-opacity: 0.8;
-margin-bottom: 30px;
-}
-.card-item .content2 {
+ font-family: Pretendard;
+ font-size: 26px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 40px; /* 153.846% */
+ opacity: 0.8;
+ margin-bottom: 30px;
+ }
+ .card-item .content2 {
 	width: 712px;
 	height: 180px;
 	color: #FFF;
-font-family: demibold;
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: 36px; /* 128.571% */
+ font-family: demibold;
+ font-size: 28px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 36px; /* 128.571% */
 	opacity: 0.4;
-
-}
+ 
+ }
