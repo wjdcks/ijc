@@ -1,0 +1,31 @@
+/* 공통 */
+.section-style {
+    padding-top: 171px;
+	height:   100%;
+	z-index: 1;
+}
+
+.sect-contents {
+	flex-grow: 1;
+	min-width: 0;
+}
+
+
+@media (max-width: 1024px) {
+	.section-style {
+		margin: 4em 0;
+	}
+	.section-style .portfolio {
+		padding: 4em 0;
+	}
+	.section-style .max-width {
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.sect-title {
+		flex-basis: auto;
+	}
+	.portfolio .sect-title {
+		order: 0;
+	}
+}

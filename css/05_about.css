@@ -1,0 +1,104 @@
+/* 공통 */
+@font-face {
+	font-family: DIN2014;
+	src: url(../font/En_Body_Din2014/DIN2014-Bold.ttf) format("truetype");
+	src: url(../font/En_Body_Din2014/DIN2014-DemiBold.ttf) format("truetype");
+}
+@font-face {
+	font-family: Pretendard;
+	src: url(../font/Kr_Pretendard/Pretendard-SemiBold.ttf) format("truetype");
+}
+.section-style {
+	height:   100%;
+}
+
+.sect-contents {
+	flex-grow: 1;
+}
+
+.card-list {
+	display: flex;
+	gap: 280px;
+}
+
+.card-list li {
+	margin-left: 0;
+	width: 448px;
+	height: 480px;
+}
+
+
+
+.card-item .thumbnail {
+	width: 363px;
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card-item .thumbnail img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	
+}
+
+.card-item .title1,
+.card-item .content1 {
+	display: inline-block;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.card-item .title1 {
+	width: 448px;
+	color: #FFF;
+font-family: DIN2014;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: 80px; /* 114.286% */
+opacity: 0.8;
+}
+
+.card-item .content1 {
+	width: 218px;
+height: 112px;
+	color: #FFF;
+font-family: DIN2014;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 127.273% */
+opacity: 0.4;
+margin-bottom: 34px;
+
+}
+
+.card-item .title2,
+.card-item .content2 {
+	display: inline-block;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.card-item .title2 {
+	width: 712px;
+	color: #FFF;
+font-family: Pretendard;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 153.846% */
+opacity: 0.8;
+}
+.card-item .content2 {
+	width: 712px;
+	color: #FFF;
+	font-family: DIN2014;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 36px; /* 128.571% */
+	opacity: 0.4;
+}

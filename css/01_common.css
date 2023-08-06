@@ -1,0 +1,34 @@
+.smooth {
+	scroll-behavior: smooth;
+	background-color: #202020;
+}
+
+/* layout */
+.wrap {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+main {
+	flex-grow: 1;
+}
+
+.max-width {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;  /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #bcbcbc; /* 스크롤바의 색상 */
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(43, 43, 44, 0.1);  /*스크롤바 뒷 배경 색상*/
+}

@@ -1,0 +1,101 @@
+@font-face {
+	font-family: DIN2014-ExtraBold;
+	src:url(../font/En_Body_Din2014/DIN2014-ExtraBold.ttf) format("truetype");
+}
+@font-face {
+	font-family: DIN2014-Bold;
+	src: url(../font/En_Body_Din2014/DIN2014-Bold.ttf) format("truetype");
+}
+
+header {
+	position: fixed;
+	width: 100vw;
+	height: 101px;
+	background: #202020;
+	backdrop-filter: blur(1rem);
+	-webkit-backdrop-filter: blur(1rem);
+	box-sizing: border-box;
+	z-index: 2;
+	transition: top 0.2s ease-in-out;
+}
+
+header .max-width {
+	position: relative;
+	display: flex;
+}
+
+
+
+/* home */
+.home {
+	position: absolute;
+	top: 22px;
+    bottom: 25px;
+}
+
+.logo{
+	display: inline-block;
+	width: 66px;
+	height: 46px;
+	font-family: DIN2014-ExtraBold;
+	font-size: 46px;
+font-style: normal;
+font-weight: 800;
+line-height: 46px;
+	color: #fff;
+}
+.logo:hover{
+	color:#2DF5B4;
+}
+
+/* 메뉴 */
+
+.gnb{
+	width: 1440px;
+}
+
+.gnb > ul {
+	display: flex;
+	width: 182px;
+	height: 101px;
+    margin-left: 1192px;
+	text-align: center;
+	margin-left: auto;
+}
+
+.gnb > ul > li > a {
+	line-height: 30px;
+	display: inline-block;
+	margin-top: 32.5px;
+	margin-bottom: 25px;
+}
+
+.about{
+	width: 61px;
+	margin-left: -17px;
+	color: #FFF;
+font-family: DIN2014-Bold;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+
+.about:hover{
+	color:#2DF5B4;
+}
+
+.contact {
+	width: 82px;
+	margin-left: 39px;
+	color: #FFF;
+font-family: DIN2014-Bold;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 150% */
+}
+
+.contact:hover{
+	color:#2DF5B4;
+}
