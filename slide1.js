@@ -14,5 +14,5 @@ var slideIndex1 = 0;
         }
         slides1[slideIndex1 - 1].style.display = "block";
     
-        setTimeout(showSlides1, 2000); // 2초마다 이미지가 체인지됩니다
+        setTimeout(showSlides1, 1000); // 2초마다 이미지가 체인지됩니다
     }
