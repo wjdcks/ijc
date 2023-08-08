@@ -68,6 +68,11 @@ font-style: normal;
 font-weight: 700;
 line-height: 30px; /* 100% */
 }
+
+.title:hover{
+	color:#2DF5B4;
+}
+
 .card-item .content {
 	word-break: break-all;
 	opacity: 0.4;

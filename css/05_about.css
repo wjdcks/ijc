@@ -46,12 +46,12 @@
 .card-item .title1,
 .card-item .content1 {
 	display: inline-block;
-	margin-top: 14px;
+	margin-top: 0px;
 	margin-bottom: 14px;
 }
 
 .card-item .title1 {
-	width: 448px;
+	width: 480px;
 	color: #FFF;
 font-family: DIN2014;
 font-size: 70px;
