@@ -65,7 +65,7 @@
  }
  
  .card-item .title1 {
-	width: 189px;
+	width: 600px;
 	height: 80px;
 	color: #FFF;
  font-family: DIN2014;
@@ -106,7 +106,7 @@
  font-weight: 600;
  line-height: 40px; /* 153.846% */
  opacity: 0.8;
- margin-bottom: 5px;
+ margin-bottom: 30px;
  }
  .card-item .content2 {
 	width: 712px;

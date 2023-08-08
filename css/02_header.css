@@ -10,7 +10,7 @@
 header {
 	position: fixed;
 	width: 100vw;
-	height: 101px;
+	height: 78px;
 	background: #202020;
 	backdrop-filter: blur(1rem);
 	-webkit-backdrop-filter: blur(1rem);
